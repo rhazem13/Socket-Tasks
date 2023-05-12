@@ -5,19 +5,21 @@ This repository contains four projects implemented using Sockets in Python.
 ## Chat Room
 
 The Chat Room project is a simple client-server application that allows multiple users to communicate in real-time. It provides a chat interface where users can send and receive messages. The server manages the connections between clients and relays the messages.
+| ![Chat Room](./assets/chat.jpg) 
 
 ## File Transfer
 
 The File Transfer project enables the transfer of files between a client and a server. The client can select a file from their local machine and send it to the server. The server receives the file and saves it locally.
+| ![File Transfer](./assets/filesender.png) |
 
 ## Image Transfer
 
 The Image Transfer project focuses on sending images between a client and a server. The client can choose an image file, and the server receives and saves the image. It supports popular image formats such as PNG and JPEG.
-
+| ![Image Transfer](./assets/imagesender.png)
 ## Web Page Downloader
 
 The Web Page Downloader project allows the user to download the HTML content of a web page given its URL. It utilizes the `urllib` library to make an HTTP request to the specified URL and saves the HTML response to a local file.
-
+| ![Web Page Downloader](./assets/webdownloader.png) 
 ## Requirements
 
 - Python 3.x
